@@ -1,4 +1,5 @@
 ### Eslint plugin for controlling the names of ts "interfaces"
+Hello friend, if your project needs to track ts interface prefixes, this plugin is for you. There is no autofix in it, there is only a message about a violation of the spelling rule.
 
 [![npm version](https://img.shields.io/npm/v/eslint-plugin-interface-prefix-control-svt)](https://www.npmjs.com/package/eslint-plugin-interface-prefix-control-svt)
 
