@@ -17,7 +17,7 @@
 
 | Valid                                        | Invalid                                     |
 | -------------------------------------------- | ------------------------------------------- |
-| `interface IProps { preview: boolean; }`     | `interface Props { preview: boolean; }`     |
+| `interface IProps { className: "string"; }`     | `interface Props { className: "string"; }`     |
 
 
 
