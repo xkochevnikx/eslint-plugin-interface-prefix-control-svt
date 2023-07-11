@@ -24,7 +24,7 @@ You'll first need to install [ESLint](https://eslint.org/):
 npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-interface-prefix-control-svt`:
+install `eslint-plugin-interface-prefix-control-svt`:
 
 ```sh
 npm i -D eslint-plugin-interface-prefix-control-svt
@@ -32,7 +32,7 @@ npm i -D eslint-plugin-interface-prefix-control-svt
 
 ## Usage
 
-Add `interface-prefix-control-svt` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `interface-prefix-control-svt` to the plugins section of your `.eslintrc`/`.eslintrc.js` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
@@ -45,7 +45,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "interface-prefix-control-svt/prefix-control": "warn"
+        "interface-prefix-control-svt/prefix-control": "warn" //or "error"
     }
 }
 ```
