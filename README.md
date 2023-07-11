@@ -29,7 +29,7 @@ You'll first need to install [ESLint](https://eslint.org/):
 npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-prefix-types`:
+Next, install `eslint-plugin-interface-prefix-control-svt`:
 
 ```sh
 npm i -D eslint-plugin-interface-prefix-control-svt
