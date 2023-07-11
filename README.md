@@ -6,10 +6,9 @@
 
 **Rules:**
 
-`eslint-plugin-interface-prefix-control-svt` supports 1 main rules types:
+`eslint-plugin-interface-prefix-control-svt` supports rules types:
 
 - enforcing prefixing
-- preventing prefixing
 
 #### Enforcing prefixes
 
@@ -19,14 +18,6 @@
 | Valid                                        | Invalid                                     |
 | -------------------------------------------- | ------------------------------------------- |
 | `interface IProps { preview: boolean; }`     | `interface Props { preview: boolean; }`     |
-
-#### Preventing prefixing
-
-- Interfaces should not start with the letter I
-
-| Valid                                       | Invalid                                      |
-| ------------------------------------------- | -------------------------------------------- |
-| `interface Props { preview: boolean; }`     | `interface IProps { preview: boolean; }`     |
 
 
 
