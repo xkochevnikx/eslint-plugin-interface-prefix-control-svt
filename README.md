@@ -1,25 +1,20 @@
-
 ### Eslint plugin for controlling the names of ts "interfaces"
-[![npm version](https://img.shields.io/npm/v/eslint-plugin-interface-prefix-control-svt
-)](https://www.npmjs.com/package/eslint-plugin-interface-prefix-control-svt
-)
+
+[![npm version](https://img.shields.io/npm/v/eslint-plugin-interface-prefix-control-svt)](https://www.npmjs.com/package/eslint-plugin-interface-prefix-control-svt)
 
 **Rules:**
 
-`eslint-plugin-interface-prefix-control-svt` supports rules types:
+`eslint-plugin-interface-prefix-control-svt` supports one rule:
 
-- enforcing prefixing
+-   enforcing prefixing
 
 #### Enforcing prefixes
 
-- Interfaces should start with the letter I
+-   Interfaces should start with the letter I
 
-
-| Valid                                        | Invalid                                     |
-| -------------------------------------------- | ------------------------------------------- |
-| `interface IProps { className: "string"; }`     | `interface Props { className: "string"; }`     |
-
-
+| Valid                                       | Invalid                                    |
+| ------------------------------------------- | ------------------------------------------ |
+| `interface IProps { className: "string"; }` | `interface Props { className: "string"; }` |
 
 ## Installation
 
@@ -37,21 +32,20 @@ npm i -D eslint-plugin-interface-prefix-control-svt
 
 ## Usage
 
-Add `prefix-types` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `interface-prefix-control-svt` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
-  "plugins": ["interface-prefix-control-svt"]
+    "plugins": ["interface-prefix-control-svt"]
 }
 ```
 
-Then configure the rules you want to use under the rules section. 
+Then configure the rules you want to use under the rules section.
 
 ```json
 {
-  "rules": {
-            'interface-prefix-control-svt/prefix-control': 'warn',
-
-  }
+    "rules": {
+        "interface-prefix-control-svt/prefix-control": "warn"
+    }
 }
 ```
